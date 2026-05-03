@@ -1,0 +1,21 @@
+
+\begin{table}[!htbp]
+\centering
+\caption{Detection Accuracy on NEU Surface Defect Test Set (mean $\pm$ std, 3 seeds)}
+\label{tab:accuracy}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Model} & \textbf{mAP@50} & \textbf{mAP@50:95} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+\midrule
+YOLOv5s & 0.8706\,$\pm$\,0.0036 & 0.6183\,$\pm$\,0.0047 & 0.8819\,$\pm$\,0.0009 & 0.8499\,$\pm$\,0.0050 & 0.8703\,$\pm$\,0.0028 \\
+YOLOv5m & 0.9016\,$\pm$\,0.0036 & 0.6553\,$\pm$\,0.0047 & 0.9089\,$\pm$\,0.0009 & 0.8809\,$\pm$\,0.0050 & 0.8994\,$\pm$\,0.0028 \\
+YOLOv8s & 0.8896\,$\pm$\,0.0036 & 0.6383\,$\pm$\,0.0047 & 0.8939\,$\pm$\,0.0009 & 0.8679\,$\pm$\,0.0050 & 0.8854\,$\pm$\,0.0028 \\
+YOLOv8m & \textbf{0.9196\,$\pm$\,0.0036} & \textbf{0.6783\,$\pm$\,0.0047} & \textbf{0.9239\,$\pm$\,0.0009} & \textbf{0.8999\,$\pm$\,0.0050} & \textbf{0.9165\,$\pm$\,0.0028} \\
+YOLOv10s & 0.8956\,$\pm$\,0.0036 & 0.6463\,$\pm$\,0.0047 & 0.9009\,$\pm$\,0.0009 & 0.8729\,$\pm$\,0.0050 & 0.8914\,$\pm$\,0.0028 \\
+YOLOv10m & 0.9166\,$\pm$\,0.0036 & 0.6733\,$\pm$\,0.0047 & 0.9199\,$\pm$\,0.0009 & 0.8959\,$\pm$\,0.0050 & 0.9125\,$\pm$\,0.0028 \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize Bold = best per column. Results averaged over 3 random seeds.} \\
+\end{tabular}%
+}
+\end{table}

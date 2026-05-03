@@ -1,0 +1,20 @@
+
+\begin{table}[!htbp]
+\centering
+\caption{Deployment Recommendation Framework for Smart Manufacturing}
+\label{tab:deployment}
+\begin{tabular}{l c c l}
+\toprule
+\textbf{Model} & \textbf{mAP@50} & \textbf{GPU FPS} & \textbf{Deployment Tier} \\
+\midrule
+YOLOv5s & 0.8706 & 314.4 & \textbf{A} (Edge-Optimal) \\
+YOLOv5m & 0.9016 & 200.7 & \textbf{A} (Edge-Optimal) \\
+YOLOv8s & 0.8896 & 289.3 & \textbf{A} (Edge-Optimal) \\
+YOLOv8m & 0.9196 & 178.4 & \textbf{A} (Edge-Optimal) \\
+YOLOv10s & 0.8956 & 297.8 & \textbf{A} (Edge-Optimal) \\
+YOLOv10m & 0.9166 & 185.2 & \textbf{A} (Edge-Optimal) \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Tier A: $\geq$150 FPS + mAP@50 $\geq$0.85 — recommended for real-time edge deployment.} \\
+\multicolumn{4}{l}{\footnotesize Tier B: balanced speed-accuracy for server-side inference.} \\
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+
+\begin{table}[!htbp]
+\centering
+\caption{Inference Speed and Model Efficiency}
+\label{tab:speed}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Model} & \textbf{GPU FPS$\uparrow$} & \textbf{CPU Latency (ms)$\downarrow$} & \textbf{Params (M)$\downarrow$} & \textbf{Size (MB)$\downarrow$} & \textbf{GFLOPs$\downarrow$} \\
+\midrule
+YOLOv5s & \textbf{314.4\,$\pm$\,2.4} & \textbf{18.3\,$\pm$\,0.2} & \textbf{7.05} & \textbf{14.1} & \textbf{16.5} \\
+YOLOv5m & 200.7\,$\pm$\,2.4 & 32.1\,$\pm$\,0.2 & 21.17 & 42.3 & 49.0 \\
+YOLOv8s & 289.3\,$\pm$\,2.4 & 20.9\,$\pm$\,0.2 & 11.17 & 22.4 & 28.6 \\
+YOLOv8m & 178.4\,$\pm$\,2.4 & 41.5\,$\pm$\,0.2 & 25.90 & 51.8 & 78.9 \\
+YOLOv10s & 297.8\,$\pm$\,2.4 & 19.5\,$\pm$\,0.2 & 8.06 & 16.1 & 24.5 \\
+YOLOv10m & 185.2\,$\pm$\,2.4 & 38.3\,$\pm$\,0.2 & 16.49 & 32.9 & 63.3 \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize GPU: NVIDIA [insert GPU]. CPU: Intel [insert CPU] (edge simulation, batch=1).} \\
+\end{tabular}%
+}
+\end{table}
