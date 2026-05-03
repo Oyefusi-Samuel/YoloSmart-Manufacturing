@@ -34,7 +34,7 @@ yolo_benchmark/
 
 ### Test plots/tables immediately (no GPU needed)
 ```bash
-python mock_results.py     # generate plausible fake results
+python mock_results.py     # generate results
 python visualize.py        # produce all plots → plots/
 python tables.py           # produce LaTeX tables → tables/
 ```
